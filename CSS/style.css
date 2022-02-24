@@ -1,0 +1,1058 @@
+body{
+    margin: 0%;
+}
+
+/* header start*/
+#head{
+    background-color: black;
+    width: 100%;
+}
+#websitename{
+    color: white;
+    font-size: 30px;
+}
+#tabs{
+    margin-left: 55%;
+}
+#login{
+    color: darkred;
+    font-size: 20px;
+}
+#signup > button{
+  margin-top: 8%;
+  margin-left: -12%;
+  border-radius: 30%;
+}
+#login > button{
+  margin-top: 8%;
+  margin-left: -8%;
+  border-radius: 30%;
+}
+/* header end*/
+
+#zomato_logo{
+  position: absolute;
+  z-index: 1;
+  top: -137px;
+  width: 100%;
+  margin-top: 30%;
+  color: white;
+  
+}
+#h1 > h1{
+  padding-left: 440px;
+  margin-top: -2%;
+  font-size: 62px;
+}
+#h2{
+  width: 80%;
+}
+#h2 > h2{
+  margin-top: 0%;
+   padding-left: 275px;
+}
+.input_group > input{
+  text-align: center;
+  color: black;
+}
+.search-bar{
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  width: 100%;
+  margin-top: 27%;
+}
+.input_group > input{
+  text-align: center;
+}
+#input1{
+  width: 20%;
+  margin-top: -1%;
+  margin-left: 23%;
+}
+#input2{
+  width: 35%;
+  margin-top: -4%;
+  margin-left: 44%;
+}
+
+
+/* Quick search start*/
+
+#collection21{
+  height: 150px;
+  width: 100%;
+}
+#collection21 > h2{
+font-size: 45px;
+  margin-top: -2%;
+  color: black;
+}
+#QuickSearch{
+  height:500px;
+  width: 100%;
+  margin-top: -2%;
+  
+}
+.tilecontainer{
+  height: 200px;
+  width: 30%;
+  float: left;
+  margin-top: 2%;
+  margin-left: 2%;
+  box-shadow: 10px 20px 10px gray;
+}
+.tilecontainer1{
+  width: 60%;
+  float: left;
+  height: 200px;
+}
+
+.tilecontainer1 > img{
+  height: 200px;
+  width: 100%;
+}
+
+.tilecontainer2{
+  width: 30%;
+  float: left;
+  height: 100px;
+  margin-left: 7%;
+  margin-top: 15%;
+}
+#tilecontainer21{
+  width: 30%;
+  float: left;
+  height: 100px;
+  margin-left: 4%;
+  margin-top: 15%;
+}
+.componentheading{
+  font-size: 30px;
+  color: orange;
+}
+.componentsubheading{
+  color: gray;
+
+}
+.componentheading_breakfast{
+  font-size: 30px;
+  color: orange;
+}
+.componentheading_breakfast > a{
+  color: orange;
+}
+.componentheading > a{
+  color: orange;
+}
+.componentheading_nightlife{
+  font-size: 30px;
+  color: orange;
+}
+.componentheading_nightlife > a{
+  color: orange;
+}
+/* end quick search*/
+
+
+/* blog start*/
+
+#blog{
+    height: 150px;
+    width: 100%;
+}
+#blog > h2{
+    font-size: 35px;
+    margin-top: -1%;
+    color: black;
+}
+#content{
+    margin-left: 20%;
+}
+#blogss{
+  margin-left: -20%;
+}
+/* blog end*/
+
+/* start news area*/
+#news{
+  height: 100px;
+  width: 100%;
+}
+#news> h2{
+  font-size: 35px;
+  margin-top: -2%;
+}
+#blogs{
+  margin-left: 0%;
+}
+.recent_bloger_area {
+    background: #f7f7f7;
+    padding: 0px 0px;
+  }
+  
+  .recent_bloger_area .s_black_title {
+    padding-bottom: 40px;
+  }
+  
+  .recent_bloger_area .recent_blog_item {
+    margin-bottom: -50px;
+  }
+  
+  .recent_bloger_area .recent_blog_item .blog_img {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .recent_bloger_area .recent_blog_item .blog_img:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    transition: all 400ms linear 0s;
+  }
+  
+  .recent_bloger_area .recent_blog_item .blog_img img {
+    max-width: 100%;
+  }
+  
+  .recent_bloger_area .recent_blog_item .recent_blog_text {
+    padding: 0px 20px;
+    position: relative;
+    top: -50px;
+    z-index: 3;
+    transition: all 400ms linear 0s;
+  }
+  
+  .recent_bloger_area .recent_blog_item .recent_blog_text .recent_blog_text_inner {
+    background: #fff;
+    text-align: center;
+    padding: 0px 20px;
+    border: 1px solid #dfdfdf;
+    padding-bottom: 20px;
+  }
+  
+  .recent_bloger_area .recent_blog_item .recent_blog_text .recent_blog_text_inner h6 {
+    background: #b10400;
+    font-family: "Cantata One", serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #fff;
+    line-height: 40px;
+    padding: 0px 10px;
+    display: inline-block;
+    position: relative;
+    top: -20px;
+  }
+  
+  .recent_bloger_area .recent_blog_item .recent_blog_text .recent_blog_text_inner h6 a {
+    color: #fff;
+  }
+  
+  .recent_bloger_area .recent_blog_item .recent_blog_text .recent_blog_text_inner h5 {
+    font-size: 18px;
+    color: #292929;
+    font-family: "Cantata One", serif;
+    padding-top: 7px;
+  }
+  
+  .recent_bloger_area .recent_blog_item .recent_blog_text .recent_blog_text_inner p {
+    font-size: 14px;
+    line-height: 26px;
+    font-family: "Open Sans", sans-serif;
+    color: #666666;
+    padding: 20px 0px;
+  }
+  
+  .recent_bloger_area .recent_blog_item .recent_blog_text .recent_blog_text_inner a {
+    font-size: 14px;
+    color: #666666;
+  }
+  
+  .recent_bloger_area .recent_blog_item .recent_blog_text .recent_blog_text_inner a span {
+    color: black;
+  }
+  
+  .recent_bloger_area .recent_blog_item .recent_blog_text .recent_blog_text_inner a:hover {
+    color: black;
+  }
+  
+  .recent_bloger_area .recent_blog_item:hover .blog_img:before {
+    -webkit-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+  
+  .recent_bloger_area .recent_blog_item:hover .recent_blog_text {
+    top: -30px;
+  }
+  .recent_bloger_area{
+    margin-left: 0%;
+  }
+  #blogimg > img{
+    margin-left: 10%;
+  }
+  /* End News area css*/
+  
+
+/* footer start */
+.gallery_widget ul {
+    margin-right: -10px;
+    margin-top: -10px;
+  }
+  
+  .gallery_widget ul li {
+    width: calc(100% / 3);
+    float: left;
+    overflow: hidden;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+  
+  .gallery_widget ul li a {
+    position: relative;
+    display: block;
+    z-index: 2;
+  }
+  
+  .gallery_widget ul li a img {
+    max-width: 100%;
+  }
+  
+  .gallery_widget ul li a:before {
+    content: "";
+    position: absolute;
+    background: rgba(177, 4, 0, 0.6);
+    width: 84%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+    transition: all 200ms linear;
+  }
+  
+  .gallery_widget ul li a i {
+    color: #fff;
+    position: absolute;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    z-index: 3;
+    left: 0;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    transition: all 400ms linear 0s;
+    margin-top: -4px;
+  }
+  
+  .gallery_widget ul li:hover a:before {
+    opacity: 1;
+  }
+  
+ #copyright > h5{
+     text-align: center;
+ }
+#footer{
+    background-color:  black; 
+    width: 100%;   
+}
+.f_w_title{
+    text-align: center;
+    color: white;
+}
+#copyright{
+    height: 20px;
+    width: 100%;
+}
+#copyright > h5{
+    margin-top: -1%;
+}
+#social1{
+  float: left;
+  margin-left: -128%;
+  margin-top: -12%;
+}
+/* Footer End */
+
+/*responsive area */
+@media screen and (max-width:1500px){
+  #tabs{
+    margin-left: 40%;
+}
+ }
+
+ @media screen and (max-width:1300px){
+     
+    #tabs{
+        margin-left: 40%;
+    }
+    #social1{
+      float: left;
+      margin-left: -135%;
+      margin-top: -22%;
+    }
+    .componentheading_breakfast{
+      margin-left: -14%;
+      margin-top: 5%;
+      font-size: 33px;
+      color: orange;
+    }
+    .componentheading_breakfast > a{
+      color: orange;
+    }
+    #blogimg > img{
+      margin-left: 0%;
+    }
+}
+@media screen and (max-width:1200px){
+  #zomato_logo{
+    position: absolute;
+    z-index: 1;
+    top: -137px;
+    width: 100%;
+    margin-top: 30%;
+    color: white;
+    
+  }
+  #h1 > h1{
+    padding-left: 345px;
+    margin-top: -2%;
+    font-size: 62px;
+  }
+  #h2{
+    width: 100%;
+  }
+  #h2 > h2{
+    margin-top: 0%;
+     padding-left: 170px;
+  }
+  .input_group > input{
+    text-align: center;
+    color: black;
+  }
+  .search-bar{
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    width: 100%;
+    margin-top: 27%;
+  }
+  .input_group > input{
+    text-align: center;
+  }
+  #input1{
+    width: 20%;
+    margin-top: -2%;
+    margin-left: 23%;
+  }
+  #input2{
+    width: 35%;
+    margin-top: -5%;
+    margin-left: 44%;
+  }
+}
+
+@media screen and (max-width:1100px){
+  #tabs{
+    margin-left: 30%;
+  }
+
+  #QuickSearch{
+    height:700px;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: -2%;
+    
+  }
+  .tilecontainer{
+    height: 220px;
+    width: 47%;
+    float: left;
+    margin-top: 0%;
+    margin-left: 1%;
+    /*box-shadow: 10px 20px 10px gray;*/
+  }
+  .tilecontainer1{
+    width: 60%;
+    float: left;
+    height: 200px;
+  }
+  
+  .tilecontainer1 > img{
+    height: 200px;
+    width: 100%;
+  }
+  
+  .tilecontainer2{
+    width: 40%;
+    float: right;
+    height: 100px;
+    margin-left: 30%;
+    margin-top: -20%;
+  }
+  
+  #tilecontainer21{
+    width: 30%;
+    float: left;
+    height: 100px;
+    margin-right: 4%;
+    margin-top: 15%;
+  }
+  .componentheading{
+    margin-left: 18%;
+    margin-top: -27%;
+    font-size: 35px;
+    color: orange;
+  }
+  .componentsubheading{
+    width: 100%;
+    margin-left: 16%;
+    color: gray;
+  
+  }
+  
+  .componentheading > a{
+    color: orange;
+  }
+  .componentheading_breakfast{
+    margin-left: 5%;
+    margin-top: -27%;
+    font-size: 35px;
+    color: orange;
+  }
+  .componentheading_breakfast > a{
+    color: orange;
+  }
+  .componentheading_nightlife{
+    margin-left: 10%;
+    margin-top: -27%;
+    font-size: 35px;
+    color: orange;
+  }
+  .componentheading_nightlife > a{
+    color: orange;
+  }
+  .gallery_widget ul li a:before {
+    content: "";
+    position: absolute;
+    background: rgba(177, 4, 0, 0.6);
+    width:100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+    transition: all 200ms linear;
+  }
+  #news> h2 {
+    font-size: 35px;
+    margin-top: -4%;
+  }
+  #blogimg > img{
+    margin-left: 0%;
+  }
+}
+@media screen and (max-width:1000px){
+  #tabs{
+    margin-left: 25%;
+  }
+  #collection21 > h2 {
+    font-size: 45px;
+    margin-top: -4%;
+    color: black;
+}
+  #blogimg > img{
+    margin-left: 30%;
+  }
+  #news> h2 {
+    font-size: 35px;
+    margin-top: -4%;
+  }
+  #gallary_pic > li{
+    margin-left: 0%;
+  }
+  .gallery_widget ul {
+    margin-right: -10px;
+    margin-top: -10px;
+  }
+  
+  .gallery_widget ul li {
+    width: calc(100% / 12);
+    float: left;
+    overflow: hidden;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+  
+  .gallery_widget ul li a {
+    position: relative;
+    display: block;
+    z-index: 2;
+  }
+  
+  .gallery_widget ul li a img {
+    max-width: 100%;
+  }
+  .f_w_title{
+    text-align: left;
+    color: white;
+  }
+  
+    #zomato_logo{
+      position: absolute;
+      z-index: 1;
+      top: -137px;
+      width: 100%;
+      margin-top: 30%;
+      color: white;
+      
+    }
+    #h1 > h1{
+      padding-left: 248px;
+      margin-top: 8%;
+      font-size: 55px;
+    }
+    #h2{
+      width: 100%;
+    }
+    #h2 > h2{
+      margin-top: -3%;
+    padding-left: 60px;
+    }
+    .input_group > input{
+      text-align: center;
+      color: black;
+    }
+    .search-bar{
+      position: absolute;
+      z-index: 1;
+      top: 50px;
+      width: 100%;
+      margin-top: 27%;
+    }
+    .input_group > input{
+      text-align: center;
+    }
+    #input1{
+      width: 20%;
+    margin-top: 3%;
+    margin-left: 23%;
+    }
+    #input2{
+      width: 35%;
+      margin-top: -6%;
+      margin-left: 45%;
+  }
+    
+  
+
+}
+@media screen and (max-width:900px){
+  #tabs{
+    margin-left: 15%;
+  }
+  #QuickSearch{
+    height:700px;
+    width: 90%;
+    margin-left: 10%;
+    margin-top: 5%;
+    
+  }
+  #Quickheading{
+      color: orange;
+      font-size: 60px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      display: block;
+      margin-left: 2%;
+
+  }
+  #Quicksubheading{
+      line-height: 2;
+      color: black;
+      font-size: 20px;
+      margin-left: 2%;
+
+  }
+  .tilecontainer{
+      height: 200px;
+      width: 48%;
+      float: left;
+      margin-top: 2%;
+      margin-left: 1%;
+      box-shadow: 10px 20px 10px gray;
+  }
+  .tilecontainer1{
+      width: 44%;
+      float: left;
+      height: 150px;
+  }
+
+  .tilecontainer1 > img{
+      height: 200px;
+      width: 100%;
+  }
+
+  .tilecontainer2{
+      width: 30%;
+      float: left;
+      height: 100px;
+      margin-left: 7%;
+      margin-top: 15%;
+  }
+  #tilecontainer21{
+      width: 30%;
+      float: left;
+      height: 100px;
+      margin-left: 0%;
+      margin-top: 15%;
+  }
+  .componentheading{
+      font-size: 30px;
+      color: orange;
+  }
+  .componentsubheading{
+      color: gray;
+
+  }
+  .componentheading_breakfast{
+    font-size: 30px;
+      color: orange;
+  }
+  .componentheading > a{
+      color: orange;
+  }
+}
+@media screen and (max-width:800px){
+  #tabs{
+    margin-left: 0%;
+  }
+  #signup > button{
+    margin-top: 1%;
+    margin-left: 5%;
+    border-radius: 30%;
+  }
+  #login > button{
+    margin-top: 3%;
+    margin-left: 5%;
+    border-radius: 30%;
+  }
+ 
+  #blogimg > img{
+    margin-left: 20%;
+  }
+  #zomato_logo{
+    position: absolute;
+    z-index: 1;
+    top: -137px;
+    width: 100%;
+    margin-top: 30%;
+    color: white;
+    
+  }
+  #h1 > h1{
+    padding-left: 248px;
+    margin-top: 39%;
+    font-size: 55px;
+  }
+  #h2{
+    width: 100%;
+  }
+  #h2 > h2{
+    margin-top: -3%;
+  padding-left: 60px;
+  }
+  .input_group > input{
+    text-align: center;
+    color: black;
+  }
+  .search-bar{
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    width: 100%;
+    margin-top: 27%;
+  }
+  .input_group > input{
+    text-align: center;
+  }
+  #input1{
+    width: 20%;
+  margin-top: 30%;
+  margin-left: 23%;
+  }
+  #input2{
+    width: 35%;
+    margin-top: -6%;
+    margin-left: 45%;
+  }
+
+}
+@media screen and (max-width:700px){
+  #zomato_logo{
+    position: absolute;
+    z-index: 1;
+    top: -137px;
+    width: 100%;
+    margin-top: 30%;
+    color: white;
+    
+  }
+  #h1 > h1{
+    padding-left: 235px;
+    margin-top: 47%;
+    font-size: 50px;
+  }
+  #h2{
+    width: 100%;
+  }
+  #h2 > h2{
+    margin-top: -3%;
+    padding-left: 81px;
+    font-size: 24px;
+  }
+  .input_group > input{
+    text-align: center;
+    color: black;
+  }
+  .search-bar{
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    width: 100%;
+    margin-top: 27%;
+  }
+  .input_group > input{
+    text-align: center;
+  }
+  #input1{
+    width: 20%;
+    margin-top: 37%;
+    margin-left: 23%;
+  }
+  #input2{
+    width: 35%;
+    margin-top: -7%;
+    margin-left: 45%;
+  }
+}
+@media screen and (max-width:620px){
+  #tabs{
+    margin-left: -4%;
+  }
+  #QuickSearch{
+    height:1300px;
+    width: 90%;
+    margin-left: 10%;
+    margin-top: 5%;
+    
+  }
+
+  
+  #Quicksubheading{
+      line-height: 2;
+      color: black;
+      font-size: 20px;
+      margin-left: 2%;
+
+  }
+  .tilecontainer{
+      height: 200px;
+      width: 90%;
+      float: left;
+      margin-top: 2%;
+      margin-left: 1%;
+      box-shadow: 10px 20px 10px gray;
+  }
+  .tilecontainer1{
+      width: 60%;
+      float: left;
+      height: 150px;
+  }
+
+  .tilecontainer1 > img{
+      height: 200px;
+      width: 100%;
+  }
+
+  .tilecontainer2{
+    width: 40%;
+    float: left;
+    height: 100px;
+    margin-left: 57%;
+    margin-top: -8%;
+  }
+  #tilecontainer21{
+      width: 30%;
+      float: left;
+      height: 100px;
+      margin-left: 0%;
+      margin-top: 20%;
+  }
+  .componentheading{
+      font-size: 30px;
+      color: orange;
+  }
+  .componentsubheading{
+      color: gray;
+
+  }
+
+  .componentheading > a{
+      color: orange;
+  }
+  #blogimg > img{
+    margin-left: 7%;
+  }
+  .componentheading_nightlife{
+    margin-left: 13%;
+    margin-top: -38%;
+    font-size: 32px;
+    color: orange;
+  }
+  #gallary_pic > li {
+    margin-left: 3%;
+  }
+.gallery_widget ul li {
+  width: calc(100% / 12);
+  float: left;
+  overflow: hidden;
+  padding-right: 0px;
+  padding-top: 10px;
+  }
+  body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    line-height: 1.42857143;
+    color: #333; 
+  }
+  #collection21 > h2 {
+    font-size: 45px;
+    margin-top: -7%;
+    color: black;
+  }
+  .gallery_widget ul li a:before {
+    content: "";
+    position: absolute;
+    background: rgba(177, 4, 0, 0.6);
+    width:100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+    transition: all 200ms linear;
+  } 
+  #zomato_logo{
+    position: absolute;
+    z-index: 1;
+    top: -137px;
+    width: 100%;
+    margin-top: 30%;
+    color: white;
+    
+  }
+  #h1 > h1{
+    padding-left: 184px;
+    margin-top: 51%;
+    font-size: 55px;
+  }
+  #h2{
+    width: 90%;
+  }
+  #h2 > h2{
+    margin-top: -3%;
+  padding-left: 127px;
+  }
+  .input_group > input{
+    text-align: center;
+    color: black;
+  }
+  .search-bar{
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    width: 100%;
+    margin-top: 27%;
+  }
+  .input_group > input{
+    text-align: center;
+  }
+  #input1{
+    width: 20%;
+    margin-top: 46%;
+    margin-left: 23%;
+  }
+  #input2{
+    width: 35%;
+    margin-top: -8%;
+    margin-left: 45%;
+  }
+}
+@media screen and (max-width:550px){
+  #zomato_logo{
+    position: absolute;
+    z-index: 1;
+    top: -137px;
+    width: 100%;
+    margin-top: 30%;
+    color: white;
+    
+  }
+  #h1 > h1{
+    padding-left: 153px;
+    margin-top: 74%;
+    font-size: 35px;
+  }
+  #h2{
+    width: 100%;
+  }
+  #h2 > h2{
+    margin-top: -5%;
+    padding-left: 36px;
+    font-size: 19px;
+  }
+  .input_group > input{
+    text-align: center;
+    color: black;
+  }
+  .search-bar{
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    width: 100%;
+    margin-top: 27%;
+  }
+  .input_group > input{
+    text-align: center;
+  }
+  #input1{
+    width: 20%;
+    margin-top: 48%;
+    margin-left: 23%;
+  }
+  #input2{
+    width: 35%;
+    margin-top: -10%;
+    margin-left: 45%;
+  }
+}
+
+
+
+

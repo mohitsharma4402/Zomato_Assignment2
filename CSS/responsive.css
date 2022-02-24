@@ -1,0 +1,505 @@
+@media screen and (max-width:1500px){
+    #tabs{
+      margin-left: 40%;
+  }
+   }
+  
+   @media screen and (max-width:1300px){
+       
+      #tabs{
+          margin-left: 40%;
+      }
+      #social1{
+        float: left;
+        margin-left: -135%;
+        margin-top: -22%;
+      }
+      .componentheading_breakfast{
+        margin-left: -14%;
+        margin-top: 5%;
+        font-size: 33px;
+        color: orange;
+      }
+      .componentheading_breakfast > a{
+        color: orange;
+      }
+      #blogimg > img{
+        margin-left: 0%;
+      }
+  }
+  
+  @media screen and (max-width:1100px){
+    #tabs{
+      margin-left: 30%;
+    }
+  
+    #QuickSearch{
+      height:700px;
+      width: 100%;
+      margin-left: 0%;
+      margin-top: -2%;
+      
+    }
+    .tilecontainer{
+      height: 220px;
+      width: 47%;
+      float: left;
+      margin-top: 0%;
+      margin-left: 1%;
+      /*box-shadow: 10px 20px 10px gray;*/
+    }
+    .tilecontainer1{
+      width: 60%;
+      float: left;
+      height: 200px;
+    }
+    
+    .tilecontainer1 > img{
+      height: 200px;
+      width: 100%;
+    }
+    
+    .tilecontainer2{
+      width: 40%;
+      float: right;
+      height: 100px;
+      margin-left: 30%;
+      margin-top: -20%;
+    }
+    
+    #tilecontainer21{
+      width: 30%;
+      float: left;
+      height: 100px;
+      margin-right: 4%;
+      margin-top: 15%;
+    }
+    .componentheading{
+      margin-left: 18%;
+      margin-top: -27%;
+      font-size: 35px;
+      color: orange;
+    }
+    .componentsubheading{
+      width: 100%;
+      margin-left: 16%;
+      color: gray;
+    
+    }
+    
+    .componentheading > a{
+      color: orange;
+    }
+    .componentheading_breakfast{
+      margin-left: 5%;
+      margin-top: -27%;
+      font-size: 35px;
+      color: orange;
+    }
+    .componentheading_breakfast > a{
+      color: orange;
+    }
+    .componentheading_nightlife{
+      margin-left: 10%;
+      margin-top: -27%;
+      font-size: 35px;
+      color: orange;
+    }
+    .componentheading_nightlife > a{
+      color: orange;
+    }
+    .gallery_widget ul li a:before {
+      content: "";
+      position: absolute;
+      background: rgba(177, 4, 0, 0.6);
+      width:100%;
+      height:100%;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      opacity: 0;
+      transition: all 200ms linear;
+    }
+    #news> h2 {
+      font-size: 35px;
+      margin-top: -4%;
+    }
+    #blogimg > img{
+      margin-left: 0%;
+    }
+  }
+  @media screen and (max-width:1000px){
+    #tabs{
+      margin-left: 25%;
+    }
+    #collection21 > h2 {
+      font-size: 45px;
+      margin-top: -4%;
+      color: black;
+  }
+    #blogimg > img{
+      margin-left: 30%;
+    }
+    #news> h2 {
+      font-size: 35px;
+      margin-top: -4%;
+    }
+    #gallary_pic > li{
+      margin-left: 0%;
+    }
+    .gallery_widget ul {
+      margin-right: -10px;
+      margin-top: -10px;
+    }
+    
+    .gallery_widget ul li {
+      width: calc(100% / 12);
+      float: left;
+      overflow: hidden;
+      padding-right: 10px;
+      padding-top: 10px;
+    }
+    
+    .gallery_widget ul li a {
+      position: relative;
+      display: block;
+      z-index: 2;
+    }
+    
+    .gallery_widget ul li a img {
+      max-width: 100%;
+    }
+    .f_w_title{
+      text-align: left;
+      color: white;
+  }
+  }
+  @media screen and (max-width:900px){
+    #tabs{
+      margin-left: 15%;
+    }
+    #QuickSearch{
+      height:700px;
+      width: 90%;
+      margin-left: 10%;
+      margin-top: 5%;
+      
+    }
+    #Quickheading{
+        color: orange;
+        font-size: 60px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        display: block;
+        margin-left: 2%;
+  
+    }
+    #Quicksubheading{
+        line-height: 2;
+        color: black;
+        font-size: 20px;
+        margin-left: 2%;
+  
+    }
+    .tilecontainer{
+        height: 200px;
+        width: 48%;
+        float: left;
+        margin-top: 2%;
+        margin-left: 1%;
+        box-shadow: 10px 20px 10px gray;
+    }
+    .tilecontainer1{
+        width: 44%;
+        float: left;
+        height: 150px;
+    }
+  
+    .tilecontainer1 > img{
+        height: 200px;
+        width: 100%;
+    }
+  
+    .tilecontainer2{
+        width: 30%;
+        float: left;
+        height: 100px;
+        margin-left: 7%;
+        margin-top: 15%;
+    }
+    #tilecontainer21{
+        width: 30%;
+        float: left;
+        height: 100px;
+        margin-left: 0%;
+        margin-top: 15%;
+    }
+    .componentheading{
+        font-size: 30px;
+        color: orange;
+    }
+    .componentsubheading{
+        color: gray;
+  
+    }
+    .componentheading_breakfast{
+      font-size: 30px;
+        color: orange;
+    }
+    .componentheading > a{
+        color: orange;
+    }
+  }
+  @media screen and (max-width:800px){
+    #tabs{
+      margin-left: 0%;
+    }
+    #signup > button{
+      margin-top: 1%;
+      margin-left: 5%;
+      border-radius: 30%;
+    }
+    #login > button{
+      margin-top: 3%;
+      margin-left: 5%;
+      border-radius: 30%;
+    }
+   
+    #blogimg > img{
+      margin-left: 20%;
+    }
+  
+  }
+  @media screen and (max-width:600px){
+    #tabs{
+      margin-left: -4%;
+    }
+    #QuickSearch{
+      height:1300px;
+      width: 90%;
+      margin-left: 10%;
+      margin-top: 5%;
+      
+    }
+  
+    
+    #Quicksubheading{
+        line-height: 2;
+        color: black;
+        font-size: 20px;
+        margin-left: 2%;
+  
+    }
+    .tilecontainer{
+        height: 200px;
+        width: 90%;
+        float: left;
+        margin-top: 2%;
+        margin-left: 1%;
+        box-shadow: 10px 20px 10px gray;
+    }
+    .tilecontainer1{
+        width: 60%;
+        float: left;
+        height: 150px;
+    }
+  
+    .tilecontainer1 > img{
+        height: 200px;
+        width: 100%;
+    }
+  
+    .tilecontainer2{
+      width: 40%;
+      float: left;
+      height: 100px;
+      margin-left: 57%;
+      margin-top: -8%;
+    }
+    #tilecontainer21{
+        width: 30%;
+        float: left;
+        height: 100px;
+        margin-left: 0%;
+        margin-top: 20%;
+    }
+    .componentheading{
+        font-size: 30px;
+        color: orange;
+    }
+    .componentsubheading{
+        color: gray;
+  
+    }
+  
+    .componentheading > a{
+        color: orange;
+    }
+    #blogimg > img{
+      margin-left: 7%;
+    }
+    .componentheading_nightlife{
+      margin-left: 13%;
+      margin-top: -38%;
+      font-size: 32px;
+      color: orange;
+    }
+    #gallary_pic > li {
+      margin-left: 3%;
+    }
+  .gallery_widget ul li {
+    width: calc(100% / 12);
+    float: left;
+    overflow: hidden;
+    padding-right: 0px;
+    padding-top: 10px;
+    }
+    body {
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 17px;
+      line-height: 1.42857143;
+      color: #333; 
+    }
+    #collection21 > h2 {
+      font-size: 45px;
+      margin-top: -7%;
+      color: black;
+    }
+    .gallery_widget ul li a:before {
+      content: "";
+      position: absolute;
+      background: rgba(177, 4, 0, 0.6);
+      width:100%;
+      height:100%;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      opacity: 0;
+      transition: all 200ms linear;
+    } 
+  }
+
+
+
+
+
+  @media screen and (max-width:1500px){
+    #tabs{
+      margin-left: 40%;
+  }
+   }
+   @media screen and (max-width:1300px){
+     
+    #tabs{
+        margin-left: 40%;
+    }
+    #social1{
+      float: left;
+      margin-left: -135%;
+      margin-top: -22%;
+    }
+  }
+  @media screen and (max-width:1100px){
+    #tabs{
+      margin-left: 30%;
+    }
+    .gallery_widget ul li a:before {
+      content: "";
+      position: absolute;
+      background: rgba(177, 4, 0, 0.6);
+      width:100%;
+      height:100%;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      opacity: 0;
+      transition: all 200ms linear;
+    }
+  }
+  @media screen and (max-width:1000px){
+    #tabs{
+      margin-left: 25%;
+    }
+    #gallary_pic > li{
+      margin-left: 0%;
+    }
+    .gallery_widget ul {
+      margin-right: -10px;
+      margin-top: -10px;
+    }
+    
+    .gallery_widget ul li {
+      width: calc(100% / 12);
+      float: left;
+      overflow: hidden;
+      padding-right: 10px;
+      padding-top: 10px;
+    }
+    
+    .gallery_widget ul li a {
+      position: relative;
+      display: block;
+      z-index: 2;
+    }
+    
+    .gallery_widget ul li a img {
+      max-width: 100%;
+    }
+    .f_w_title{
+      text-align: left;
+      color: white;
+  }
+  }
+  @media screen and (max-width:900px){
+    #tabs{
+      margin-left: 15%;
+    }
+  }
+  @media screen and (max-width:800px){
+    #tabs{
+      margin-left: 0%;
+    }
+    #signup > button{
+      margin-top: 1%;
+      margin-left: 5%;
+      border-radius: 30%;
+    }
+    #login > button{
+      margin-top: 3%;
+      margin-left: 5%;
+      border-radius: 30%;
+    }
+  }
+  @media screen and (max-width:600px){
+    #tabs{
+      margin-left: -4%;
+    }
+    #gallary_pic > li {
+      margin-left: 3%;
+    }
+  .gallery_widget ul li {
+    width: calc(100% / 12);
+    float: left;
+    overflow: hidden;
+    padding-right: 0px;
+    padding-top: 10px;
+    }
+    body {
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 17px;
+      line-height: 1.42857143;
+      color: #333; 
+    }
+    .gallery_widget ul li a:before {
+      content: "";
+      position: absolute;
+      background: rgba(177, 4, 0, 0.6);
+      width:100%;
+      height:100%;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      opacity: 0;
+      transition: all 200ms linear;
+    } 
+  }

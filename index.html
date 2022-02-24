@@ -1,0 +1,395 @@
+<html>
+    <head>
+        <title>Zomato</title>
+        <link href="CSS/style.css" rel="stylesheet" type="text/css" />
+        <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <!-- jQuery library -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+
+        <!--header start-->
+        <header>
+            <nav id="head" class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a id="websitename" class="navbar-brand" href="first.html">Zomato</a>
+              </div>
+              <ul id="tabs" class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Add Restaurant</a></li>
+                <li><a href="#">Order Food</a></li>
+              </ul>
+              <ul  class="nav navbar-nav navbar-right">
+                <li id="signup"><button type="button" class="btn btn-primary glyphicon glyphicon-user"> SIGNUP</button></li>
+                <li id="login"><button type="button" class="btn btn-success glyphicon glyphicon-log-in"> LOGIN</button></li>
+              </ul>
+            </div>
+            </nav>
+        </header>
+        <!--header end-->
+
+
+        <!--carousel start-->
+        <div class="container-fluid">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+              </ol>
+          
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+          
+                <div class="item active">
+                  <img src="image/zomato11.png" alt="slider-1" style="width:100%;">
+                  
+                </div>
+          
+                <div class="item">
+                  <img src="image/slider-2.jpg" alt="slider-2" style="width:100%;">
+                </div>
+              </div>
+              
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <br>
+          <br>
+          <!--carousel end-->
+
+
+          <!--search bar-->
+          <section id="zomato_logo" class="search-bar">
+            <div class="container">
+                <div class="row2">
+                    <div id="h1" class="col-lg-4 mx-auto">
+                        <h1>
+                            Zomato
+                        </h1>
+                    </div>
+                </div><br>
+                <div class="row2">
+                    <div id="h2" class="col-lg-4 mx-auto">
+                        <h2>
+                            Discover the best food & drinks in your Area
+                        </h2>
+                    </div>
+                </div>
+            </div> 
+        </section>
+          
+          <section class="search-bar">
+              <div class="container">
+                  <div class="row">
+                          <form >
+                              <div id="input1" class="input_group ">
+                                
+                                  <input type="search"  placeholder="Location" class="form-control">
+                                  <div class="input-group-append">
+                                      
+                                  </div>
+                              </div>
+                            </form>
+                            <form>
+                            <div id="input2" class="input_group">
+                                <input type="search" placeholder="Search for restaurant, cuisine or a dish" class="form-control">
+                                <div class="input-group-append">
+                                    
+                                </div>
+                            </div>
+                        </form>
+                    
+                  </div>
+              </div>
+          </section>
+        
+          <!--quick search start-->
+          <div class="container-fluid">
+            <div id="collection21" class="jumbotron">
+              <h2>Collection</h2>
+              <p> Discover Restaurent by Meal : Explore lists of top restaurants, cafes, pubs, and bars based on trends.</p>
+            </div>
+          </div>
+          <br>
+          
+          <div id="QuickSearch">
+            <div id="maincontainer">
+                <div class="tilecontainer">
+                    <div class="tilecontainer1">
+                        <img src="image/breakfast.jfif" alt="Breakfast" title="Breakfast"/>
+                    </div>
+                    <div id="tilecontainer21">
+                        <div class="componentheading_breakfast">
+                            <a href="listing/breakfastlisting.html">Breakfast</a>
+                        </div>
+                        <div class="componentsubheading">
+                            Enjoy Your Breakfast 
+                        </div>
+                    </div>
+                </div>
+                <div class="tilecontainer"> <div class="tilecontainer1">
+                    <img src="image/lunch.jfif" alt="Lunch" title="Lunch"/>
+                </div>
+                <div class="tilecontainer2">
+                    <div class="componentheading">
+                        <a href="listing/breakfastlisting.html">Lunch</a>
+                    </div>
+                    <div class="componentsubheading">
+                        Enjoy Your Lunch 
+                    </div>
+                </div></div>
+                <div class="tilecontainer"> <div class="tilecontainer1">
+                    <img src="image/dinner.jfif" alt="Dinner" title="Dinner"/>
+                </div>
+                <div class="tilecontainer2">
+                    <div class="componentheading">
+                        <a href="listing/breakfastlisting.html">Dinner</a>
+                    </div>
+                    <div class="componentsubheading">
+                        Enjoy Your Dinner 
+                    </div>
+                </div></div>
+                <div class="tilecontainer"> <div class="tilecontainer1">
+                    <img src="image/nightlife.png" alt="Night Life" title="Night Life"/>
+                </div>
+                <div class="tilecontainer2">
+                    <div class="componentheading_nightlife">
+                        <a href="listing/breakfastlisting.html">Night Life</a>
+                    </div>
+                    <div class="componentsubheading">
+                        Enjoy Your Nightlife 
+                    </div>
+                </div></div>
+                <div class="tilecontainer"> <div class="tilecontainer1">
+                    <img src="image/nightevent1.jfif" alt="Event" title="Event"/>
+                </div>
+                <div class="tilecontainer2">
+                    <div class="componentheading">
+                        <a href="listing/breakfastlisting.html">Event</a>
+                    </div>
+                    <div class="componentsubheading">
+                        Enjoy Your Event Day
+                    </div>
+                </div></div>
+                <div class="tilecontainer"> <div class="tilecontainer1">
+                    <img src="image/nightevent.jfif" alt="Night Event" title="Night Event"/>
+                </div>
+                <div class="tilecontainer2">
+                    <div class="componentheading">
+                        <a href="listing/breakfastlisting.html">Night Event</a>
+                    </div>
+                    <div class="componentsubheading">
+                        Enjoy Your Night Event
+                    </div>
+                </div></div>
+            </div>
+        </div>
+        <!--quick search end-->
+
+        <!--================Start Blog Area =================-->
+        <div class="container-fluid">
+            <div id="blog" class="jumbotron">
+            <h2>Blogs Content</h2>
+            <p>Media objects can also be nested (a media object inside a media object):</p><br>
+            </div>
+            <div id="content">
+            <div id="blogss" class="media">
+              <div class="media-left">
+                <img src="image/avtar5.png " class="media-object" style="width:45px">
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Priyanshi Dhadhich <small><i>Posted on February 16, 2016</i></small></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <br>
+                <div class="media">
+                  <div class="media-left">
+                    <img src="image/avtar1.png" class="media-object" style="width:45px">
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">Deepak Jangid <small><i>Posted on February 16, 2016</i></small></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <br>
+                    <div class="media">
+                      <div class="media-left">
+                        <img src="image/avtar2.png" class="media-object" style="width:45px">
+                      </div>
+                      <div class="media-body">
+                        <h4 class="media-heading">Jatin Sharma <small><i>Posted on February 16, 2016</i></small></h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <br>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          </div>
+          <hr>
+          <!--================End Blog Area =================-->
+
+          <!--================Start News Area =================-->
+          <section class="recent_bloger_area">
+            <div class="container-fluid">
+                <div id="news" class="jumbotron">
+                    <h2>News</h2>
+                    <p>Latest News And Information for About us</p>
+                </div>
+                <div id="blogs" class="row">
+                    <div class="col-md-4">
+                        <div class="recent_blog_item">
+                            <div id="blogimg" class="blog_img">
+                                <img src="image/recent-blog-1.jpg" alt="News">
+                            </div>
+                            <div class="recent_blog_text">
+                                <div class="recent_blog_text_inner">
+                                    <h6><a href="#">Articles</a></h6>
+                                    <a href="#"><h5>Restaurant Industry & News</h5></a>
+                                    <p>Lorem Ipsum is simpily dummy texts printing and typesetting industry.</p>
+                                    <a href="#">Feb 11,ac 2017 <span>/</span></a>
+                                    <a href="#">No Comments</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><br>
+                    <div class="col-md-4">
+                        <div class="recent_blog_item">
+                            <div id="blogimg" class="blog_img">
+                                <img src="image/recent-blog-2.jpg" alt="">
+                            </div>
+                            <div class="recent_blog_text">
+                                <div class="recent_blog_text_inner">
+                                    <h6><a href="#">Inovation</a></h6>
+                                    <a href="blog-details.html"><h5>New Innovative Food Technology News</h5></a>
+                                    <p>Lorem Ipsum is simpily dummy texts printing and typesetting industry.</p>
+                                    <a href="#">Feb 11,ac 2017 <span>/</span></a>
+                                    <a href="#">No Comments</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><br>
+                    <div class="col-md-4">
+                        <div class="recent_blog_item">
+                            <div id="blogimg" class="blog_img">
+                                <img src="image/recent-blog-3.jpg" alt="">
+                            </div>
+                            <div class="recent_blog_text">
+                                <div class="recent_blog_text_inner">
+                                    <h6><a href="#">Cheaf Info.</a></h6>
+                                    <a href="blog-details.html"><h5> Industry News</h5></a>
+                                    <p>Lorem Ipsum is simpily dummy texts printing and typesetting industry.</p>
+                                    <a href="#">Feb 11,ac 2017 <span>/</span></a>
+                                    <a href="#">No Comments</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!--================End News Area =================-->
+
+        <!-----------------------------"Start Footer Area"------------------------------>
+        <footer class="footer_area">
+          <div class="footer_widget_area">
+              <div id="footer" class="container-fluid">
+                  <div  class="row">
+                      <div class="col-md-3">
+                          <aside class="f_widget about_widget">
+                              <div class="f_w_title">
+                                  <h4>ABOUT Zomato</h4>
+                              </div>
+                              <p>A Zomato is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality mattress in a small room to large suites with bigger, higher-quality.</p>
+                              
+                          </aside>
+                      </div>
+                      <div class="col-md-3">
+                          <aside class="f_widget contact_widget">
+                              <div class="f_w_title">
+                                  <h4>CONTACT US</h4>
+                              </div>
+                              <p>Have questions, comments or just want to say hello:</p>
+                              <ul>
+                                  <li><a href="#"><i class="fa fa-envelope"></i> MOHIT SHARMA</a></li>
+                                  <li><a href="#"><i class="fa fa-mail"></i>ms9110962@gmail.com</a></li>
+                                  <li><a href="#"><i class="fa fa-phone"></i>+91 8058959123</a></li>
+                                  <li><a href="#"><i class="fa fa-map-marker"></i>304, Milestone Mall, Gandhi Nagar Mod, Tonk Road, Jaipur Rajasthan 302015</a></li>
+                                  <div id="social1">
+                                    <a href="https://github.com/mohitsharma4402" target="_blank">
+                                        <img src="https://i.ibb.co/nmB2MZS/github2.png" alt="github icon" height="50px" width="50px" />
+                                     </a>
+                                     <a href="https://www.facebook.com/" target="_blank">
+                                         <img src="https://i.ibb.co/dtzG625/facebook.png" alt="fb icon" height="50px" width="50px"/>
+                                     </a>
+                                     <a href="https://www.instagram.com/mohit_sharma_official4/" target="_blank">
+                                         <img src="https://i.ibb.co/19H5LvT/insta.png" alt="insta icon" height="50px" width="50px"/>
+                                     </a>
+                                     <a href="https://twitter.com/MohitSharma4402" target="_blank">
+                                         <img src="https://i.ibb.co/JqpCSYJ/twitter4.png" alt="twitter icon" height="50px" width="50px"/>
+                                     </a>
+                                    </div>
+                              </ul>
+                          </aside>
+                      </div>
+                      <div class="col-md-3">
+                          <aside class="f_widget twitter_widget">
+                              <div class="f_w_title">
+                                  <h4>Twitter Feed</h4>
+                              </div>
+                              <ul>
+                                  <li>
+                                      <a href="#">@_mohitsharma:</a> A good smile is better for world is connect to every person.
+                                  </li>
+                                  <li>
+                                      <a href="#">@_mohitsharma:</a> A Zomato is an establishment that provides paid lodging on a short-term basis.
+                                  </li>
+                              </ul>
+                          </aside>
+                      </div>
+                      <div class="col-md-3">
+                          <aside class="f_widget gallery_widget">
+                              <div class="f_w_title">
+                                  <h4>Gallery On Zomato</h4>
+                              </div>
+                              <ul id="gallary_pic">
+                                  <li><a href="#"><img src="image/gallary/f-w-gallery-1.jpg" alt=""><i class="fa fa-search"></i></a></li>
+                                  <li><a href="#"><img src="image/gallary/f-w-gallery-2.jpg" alt=""><i class="fa fa-search"></i></a></li>
+                                  <li><a href="#"><img src="image/gallary/f-w-gallery-3.jpg" alt=""><i class="fa fa-search"></i></a></li>
+                                  <li><a href="#"><img src="image/gallary/f-w-gallery-4.jpg" alt=""><i class="fa fa-search"></i></a></li>
+                                  <li><a href="#"><img src="image/gallary/f-w-gallery-5.jpg" alt=""><i class="fa fa-search"></i></a></li>
+                                  <li><a href="#"><img src="image/gallary/f-w-gallery-6.jpg" alt=""><i class="fa fa-search"></i></a></li>
+                              </ul>
+                          </aside>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <hr>
+          <div class="copy_right_area">
+              <div id="copyright" class="container">
+                <h5><p> All rights reserved | This Website is made by &copy;<a href="#" target="_blank">Mohit Sharma</a></p></h5>
+              </div>
+                  
+              </div>
+          </div>
+      </footer>
+      <!-----------------------------"End Footer Area"------------------------------>
+    </body>
+</html> 
