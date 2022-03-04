@@ -24,7 +24,17 @@
                     <li><a href="#">Add Restaurant</a></li>
                     <li><a href="#">Order Food</a></li>
                   </ul>
-                  <ul  class="nav navbar-nav navbar-right">
+                  <div id="modeoption" class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" onClick="changeMode()">
+                    <script type="text/javascript">
+                      function changeMode(){
+                          var mybody = document.body;
+                          mybody.classList.toggle('mydark')
+                      }
+                    </script>
+                    <label class="form-check-label" for="flexSwitchCheckDefault">DARK MODE</label>
+                    </div>
+                  <ul id="loginbuttons" class="nav navbar-nav navbar-right">
                     <li id="signup"><button type="button" class="btn btn-primary glyphicon glyphicon-user"> SIGNUP</button></li>
                     <li id="login"><button type="button" class="btn btn-success glyphicon glyphicon-log-in"> LOGIN</button></li>
                   </ul>
