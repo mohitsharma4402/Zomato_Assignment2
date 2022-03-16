@@ -11,6 +11,30 @@ body{
     color: white;
     font-size: 30px;
 }
+
+#weather {
+  color: white;
+  line-height: 1;
+  margin-left: 15%;
+  width: 12%;
+  height: 0px;
+}
+
+.weather-icon > img{
+  float: left;
+  height: 35px;
+  width: 35px;
+}
+
+.temperature-value{
+}
+
+.temperature-description{
+
+}
+
+
+
 #tabs{
     margin-left: 50%;
 }
@@ -198,6 +222,9 @@ font-size: 45px;
 }
 #blogs{
   margin-left: 0%;
+}
+#blogimg > img {
+  margin-left: 1%;
 }
 .recent_bloger_area {
     background: #f7f7f7;
