@@ -22,17 +22,20 @@ body{
 
 .weather-icon > img{
   float: left;
-  height: 35px;
-  width: 35px;
+  height: 50px;
+  width: 50px;
+  margin-left: -35%;
 }
 
 .temperature-value{
 }
 
 .temperature-description{
-
+  margin-top: -4%;
 }
-
+.location{
+  margin-top: -4%;
+}
 
 
 #tabs{
