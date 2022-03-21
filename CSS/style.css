@@ -45,6 +45,9 @@ body{
   background-color:black;
   color:white  
 }
+.form-check-label{
+  color: white;
+}
 #loginbuttons{
   margin-top: -3%;
 }
