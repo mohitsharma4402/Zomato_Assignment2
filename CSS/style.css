@@ -115,7 +115,13 @@ body{
   margin-top: -4%;
   margin-left: 44%;
 }
-
+#city{
+  margin-left: 32%;
+}
+#search_button{
+  margin-left: 43%;
+  margin-top: 1%;
+}
 
 /* Quick search start*/
 

@@ -1,0 +1,18 @@
+{
+  "name": "staticapi",
+  "version": "1.0.0",
+  "description": "this is about http server",
+  "main": "fs.js",
+  "scripts": {
+    "start": "node staticapi.js",
+    "dev": "nodemon staticapi.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Mohit Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

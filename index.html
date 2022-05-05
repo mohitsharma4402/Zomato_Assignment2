@@ -9,6 +9,7 @@
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <!-- Latest compiled JavaScript -->
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+            <script src="javascript/dropdown.js"></script>
     </head>
     <body>
 
@@ -38,7 +39,7 @@
              <script src="javascript/weather.js"> </script>
 
               <ul id="tabs" class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
+                <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="#">Add Restaurant</a></li>
                 <li><a href="#">Order Food</a></li>
               </ul>
@@ -124,7 +125,18 @@
           <section class="search-bar">
               <div class="container">
                   <div class="row">
-                          <form >
+                    <select id="city" onChange="getRest()">
+                        <option>----SELECT CITY-----</option>
+                    </select>
+                    <select id="restaurant">
+                        <option>----SELECT Restaurant-----</option>
+                    </select><br>
+                    <script>
+                        window.onload=getCity()
+                    </script>
+                    <button id="search_button" class="btn-success">Search</button>
+                    
+                         <!-- <form >
                               <div id="input1" class="input_group ">
                                 
                                   <input type="search"  placeholder="Location" class="form-control">
@@ -140,7 +152,7 @@
                                     
                                 </div>
                             </div>
-                        </form>
+                        </form>-->
                     
                   </div>
               </div>

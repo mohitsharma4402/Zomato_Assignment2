@@ -1,0 +1,19 @@
+{
+  "name": "myzomato",
+  "version": "1.0.0",
+  "description": "India's largest Food Delivery, Dining and Restaurant Discovery Service.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "functions"
+  ],
+  "author": "Mohit Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "express": "^4.17.3"
+  }
+}
